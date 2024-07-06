@@ -1,18 +1,31 @@
-# RBF
+# Radial Basis Function Visualization Heatmap
 
-径向基函数（RBF）是一种在数学和工程领域广泛应用的重要概念。
-我们将RBF的概念应用于可视化的热力图中
-定义：RBF是一类特殊的函数，其值仅依赖于输入点与某个固定点（称为中心点）之间的距离。
-对称性：对于距离中心点相同的所有点，RBF的输出值都相同。
-局部性：RBF在靠近中心点的区域影响较大，随着距离增加，影响逐渐减小。
-常见类型：最常见的RBF包括高斯函数、多二次函数和反二次函数等。
-应用领域：
+The content of this repository is intended to support the paper **“iGAiVA: Integrated Generative AI and Visual Analytics in a Machine Learning Workflow for Text Classification.”**
 
-机器学习：在支持向量机（SVM）中作为核函数。
-神经网络：用作激活函数，构建RBF神经网络。
-数据插值：用于创建平滑的曲面，通过已知的离散点。
-图像处理：在图像重建和增强中有广泛应用。
+Radial Basis Function (RBF) is an important concept widely used in mathematics and engineering. We apply the concept of RBF to the visualization of heatmaps, making it useful for analyzing the relationships between projected data points.
 
+Definition: RBF is a class of special functions whose value depends only on the distance between the input point and a fixed point (called the center).
 
-优势：RBF能够有效地处理高维数据，并且在处理非线性问题时表现出色。
-在您的可视化代码中：RBF被用来从离散的数据点创建连续的热力图表面，这使得数据的整体趋势更容易被观察和理解。
+Symmetry: The RBF output value is the same for all points equidistant from the center.
+
+Locality: RBF has a greater influence in the area close to the center, and its influence gradually decreases as the distance increases.
+
+Common Types: The most common RBFs include Gaussian functions and linear functions (custom functions can also be used).
+
+RBF is used to create a continuous heatmap surface from discrete data points, making it easier to observe and understand the overall trends in the data.
+
+## Recommend:
+The code can also be used in Google Colab.
+
+## License
+
+LLM in message code released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
+
+## Citing us ٩(๑>◡<๑)۶
+
+If you find this repository useful, please consider giving a star :star: and citation:
+
+```
+@misc{
+}
+```
