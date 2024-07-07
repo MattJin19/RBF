@@ -16,10 +16,10 @@ model.load_model('your model path')
 # predict results as benchmark
 prediction = model.predict(data_topic[["text", "area_TEIS"]])
 prediction_flat = prediction.reshape(-1)
-data_topic['prediction'] = prediction_flat
+data['prediction'] = prediction_flat
 
 # prediction results
-data_topic['consistent'] = data_topic['topic_name'] == data_topic['prediction']
+data['consistent'] = data_topic['topic_name'] == data['prediction']
 
 # Add noise to aviod singular matrix
 def add_noise(data, noise_level=1e-8):
@@ -48,17 +48,17 @@ for target_syn in class_names:
     
     for j in range(i, dimension, gap):
       # change into dataframe
-      df_tsne = pd.DataFrame({'Dimension '+str(i): X_embedded[:, i], 'Dimension '+str(j): X_embedded[:, j], 'class_colored': data['class_colored'], 'topic':data['topic_name']})
-      df_tsne['training_testing'] = 'testing'
-      df_tsne.loc[X_train.index, 'training_testing'] = 'training'
-      df_testing = df_tsne[df_tsne['training_testing'] == 'testing']
+      df = pd.DataFrame({'Dimension '+str(i): X_embedded[:, i], 'Dimension '+str(j): X_embedded[:, j], 'class_colored': data['class_colored'], 'topic':data['topic_name']})
+      df['training_testing'] = 'testing'
+      df.loc[X_train.index, 'training_testing'] = 'training'
+      df_testing = df[df['training_testing'] == 'testing']
 
       # letter to number mapping
       categories = {'Other': 0, 'Correct': 100, 'Incorrect': -100}
 
       # from text to numbers
       df_testing['code'] = df_testing['class_colored'].map(categories)
-      df_tsne['code'] = df_tsne['class_colored'].map(categories)
+      df['code'] = df['class_colored'].map(categories)
 
       # select target class pixels
       df_testing_rbf = df_testing[df_testing['topic'] == target_syn]
