@@ -6,8 +6,7 @@ data = # your dataset
 labels = # your dataset's labels
 dimension = # the number of your PCA dimensions
 X_embedded = # PCA dimensions
-# Hyperparameter for the images
-resolution = 100
+resolution = 100 # Hyperparameter for the images
 
 # Load Specific Model
 model = CatBoostClassifier()
