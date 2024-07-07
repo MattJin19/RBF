@@ -12,9 +12,12 @@ Radial Basis Function (RBF) is an important concept widely used in mathematics a
 3. The most common RBFs include Gaussian functions and linear functions (custom functions can also be used).
 4. RBF is used to create a continuous heatmap surface from discrete data points, making it easier to observe and understand the overall trends in the data.
 5. ...
-   
-## Recommend:
-The code can also be used in Google Colab.
+
+## Installation
+Support Library:
+
+## Recommend
+The ipynb code can also be used in Google Colab.
 
 ## License
 
