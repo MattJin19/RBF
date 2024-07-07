@@ -21,7 +21,7 @@ The ipynb code can also be used in Google Colab.
 
 ## License
 
-LLM in message code released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
+RBF code released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
 
 ## Citing us ٩(๑>◡<๑)۶
 
