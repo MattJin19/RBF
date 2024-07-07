@@ -1,4 +1,4 @@
-# Radial Basis Function Visualization Heatmap
+# RBF -- Radial Basis Function Visualization Heatmap
 
 The content of this repository is intended to support the paper **“iGAiVA: Integrated Generative AI and Visual Analytics in a Machine Learning Workflow for Text Classification.”**
 
