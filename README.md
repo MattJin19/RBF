@@ -16,6 +16,12 @@ Radial Basis Function (RBF) is an important concept widely used in mathematics a
 ## Installation
 Support Library:
 
+1. sklearn
+2. pandas
+3. numpy
+4. catboost
+5. seaborn
+
 ## Recommend
 The ipynb code can also be used in Google Colab.
 
