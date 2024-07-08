@@ -29,6 +29,9 @@ The ipynb code can also be used in Google Colab.
 
 RBF code released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
 
+## Code Author
+Yuanzhe Jin
+
 ## Citing us ٩(๑>◡<๑)۶
 
 If you find this repository useful, please consider giving a star :star: and citation:
