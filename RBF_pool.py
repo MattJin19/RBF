@@ -1,4 +1,10 @@
 # The Necessary Library
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+from sklearn.model_selection import train_test_split
 
 # Before RBF
 class_name = # your category list
@@ -6,24 +12,25 @@ data = # your dataset
 labels = # your dataset's labels
 dimension = # the number of your PCA dimensions
 X_embedded = # PCA dimensions
-resolution = 100 # Hyperparameter for the images
+gap = # the dimension gap
+resolution = 100 # hyperparameter for the images
 
 # Load Specific Model
 model = CatBoostClassifier()
 model.load_model('your model path')
 
 # predict results as benchmark
-prediction = model.predict(data_topic[["text", "area_TEIS"]])
+prediction = model.predict(data)
 prediction_flat = prediction.reshape(-1)
 data['prediction'] = prediction_flat
 
 # prediction results
-data['consistent'] = data_topic['topic_name'] == data['prediction']
+data['consistent'] = data['topic_name'] == data['prediction']
 
 # Add noise to aviod singular matrix
 def add_noise(data, noise_level=1e-8):
     np.random.seed(22)
-    noise = np.random.normal(0, noise_level, size=data.shape)
+    noise = np.random.normal(0, noise_level, size = data.shape)
     return data + noise
 
 # Define customed RBF functions
