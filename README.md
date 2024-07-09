@@ -1,6 +1,6 @@
 # RBF -- Radial Basis Function Visualization Heatmap
 
-The content of this repository is intended to support the paper **“iGAiVA: Integrated Generative AI and Visual Analytics in a Machine Learning Workflow for Text Classification.”**
+The content of this repository is intended to support the paper **“iGAiVA: Integrated Generative AI and Visual Analytics in a Machine Learning Workflow for Text Classification.”** by authors **Yuanzhe Jin**, Adrian Carrasco, and Min Chen.
 
 Radial Basis Function (RBF) is an important concept widely used in mathematics and engineering. We apply the concept of RBF to the visualization of heatmaps, making it useful for analyzing the relationships between projected data points.
 
