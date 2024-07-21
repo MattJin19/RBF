@@ -19,11 +19,13 @@ Support Library:
 1. sklearn
 2. pandas
 3. numpy
-4. catboost
+4. Catboost
 5. seaborn
 
 ## Recommend
 The ipynb code can also be used in Google Colab.
+
+A UI design is proposed in the file and is a runnable program. Users can use that UI to interact with their data.
 
 ## License
 
