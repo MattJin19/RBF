@@ -4,8 +4,6 @@ The content of this repository is intended to support the paper **“iGAiVA: Int
 
 Radial Basis Function (RBF) is an important concept widely used in mathematics and engineering. We apply the concept of RBF to the visualization of heatmaps, making it useful for analyzing the relationships between projected data points.
 
-**Definition**: RBF is a class of special functions whose value depends only on the distance between the input point and a fixed point (called the center).
-
 ## Features
 1. The RBF output value is the same for all points equidistant from the center.
 2. RBF has a greater influence in the area close to the center, and its influence gradually decreases as the distance increases.
