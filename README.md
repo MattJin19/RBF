@@ -40,5 +40,14 @@ If you find this repository useful, please consider giving a star :star: and cit
 
 ```
 @misc{
+@misc{Jin:2024:igaiva,
+      title={iGAiVA: Integrated Generative AI and Visual Analytics in a Machine Learning Workflow for Text Classification}, 
+      author={Yuanzhe Jin and Adrian Carrasco-Revilla and Min Chen},
+      year={2024},
+      eprint={2409.15848},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2409.15848}, 
+}
 }
 ```
