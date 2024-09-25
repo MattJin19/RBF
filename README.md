@@ -25,7 +25,7 @@ Support Library:
 ## Recommend
 The ipynb code can also be used in Google Colab.
 
-A UI design is proposed in the file and is a runnable program. Users can use that UI to interact with their data.
+A UI design will be proposed in the file and is a runnable program. Users can use that UI to interact with their data.
 
 ## License
 
